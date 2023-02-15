@@ -1,5 +1,4 @@
 import { useContext } from "react";
-
 import Modal from "../UI/Modal";
 import CartItem from "./CartItem";
 import classes from "./Cart.module.css";
@@ -43,7 +42,7 @@ const Cart = (props) => {
       </div>
       <div className={classes.actions}>
         <button className={classes["button--alt"]} onClick={props.onClose}>
-          Close
+             Close
         </button>
         {hasItems && <button className={classes.button}>Order</button>}
       </div>

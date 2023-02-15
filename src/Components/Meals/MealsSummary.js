@@ -1,7 +1,6 @@
 import classes from "./MealsSummary.module.css";
 import React from "react";
 
-
 const MealsSummary = () => {
   return (
     <section className={classes.summary}>
